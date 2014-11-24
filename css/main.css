@@ -982,9 +982,11 @@ header .inner {
 	width:100%;
 	float:left;
 	padding:7px 0 14px 0
+	list-style: none;
+	padding: none;
 }
 
-.section-3 article .types a {
+.section-3 article .types li {
 	min-width:70px;
 	height:34px;
 	float:left;
@@ -999,16 +1001,6 @@ header .inner {
 	position:relative;
 	padding:0 14px;
 	margin:0 30px 25px 0
-}
-
-.section-3 article .types a:hover {
-	box-shadow:inset #000 0 0 10px;
-	text-decoration:none;
-}
-
-.section-3 article .types a.selected {
-	box-shadow:inset #000 0 0 10px;
-	text-decoration:none;
 }
 
 .section-3 article .btns {
