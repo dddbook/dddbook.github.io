@@ -228,10 +228,6 @@ a, a:visited {
 a:hover {
 	text-decoration:underline;
 	outline:0;
-	-webkit-transition: all .4s ease;
-	-moz-transition: all .4s ease;
-	-o-transition: all .4s ease;
-	transition: all .4s ease
 }
 
 a:focus, a:active, a:visited {
@@ -278,15 +274,15 @@ strong {
 
 .btn-primary {
 	width:100%;
-	max-width:150px;
-	height:47px;
+	max-width:160px;
+	height:50px;
 	float:left;
-	font-size:18px;
+	font-size:20px;
 	line-height:47px;
 	color:#FFFFFF;
 	text-align:center;
-	font-family:"ralewaybold", Arial, Helvetica, sans-serif;
-	background:#f07444;
+	font-family:Arial, Helvetica, sans-serif;
+	border: 1px solid #fff;
 	border-radius: 6px;
 	behavior: url(PIE.htc);
 	position:relative;
@@ -301,12 +297,8 @@ strong {
 }
 
 .btn-primary:hover {
-	box-shadow:inset #555 0 0 10px;
-	text-decoration:none;
-}
-
-.btn-primary:focus, .btn-primary:active {
-	box-shadow:inset #555 0 0 10px;
+	background: #fff;
+	color: #67bfa7;
 	text-decoration:none;
 }
 
@@ -314,13 +306,12 @@ strong {
 	background:#58a08c;
 }
 
-.btn-bl {
-	background:#0f1c29;
+.btn-bl:hover {
+	color:#136971;
 }
 
-.btn-yel {
-	background:#f07444;
-	color:#f3cf5b
+.btn-yel:hover {
+	color:#f3cf5b;
 }
 
 .outer {
@@ -981,7 +972,6 @@ header .inner {
 
 .section-3 article .types {
 	width:100%;
-	float:left;
 	padding:7px 0 14px 0
 	list-style: none;
 	padding: none;
@@ -990,7 +980,7 @@ header .inner {
 .section-3 article .types li {
 	min-width:70px;
 	height:34px;
-	float:left;
+	display: inline-block;
 	font-size:19px;
 	color:#FFFFFF;
 	font-family:"ralewaysemibold", Arial, Helvetica, sans-serif;
@@ -1213,10 +1203,11 @@ header .inner {
 	margin:0 20px
 }
 
-.section-6 article .btn-yel {
+.section-6 article a {
 	float:none;
 	display:inline-block;
 	margin:10px 20px -10px 20px;
+	color: #f07444;
 }
 
 .section-6 article {
