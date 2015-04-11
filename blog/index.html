@@ -1,0 +1,21 @@
+---
+layout: default
+title: Domain-Driven Design — Blog
+description: Real examples written in PHP about DDD Architectural Styles, Tactical Design and Bounded Context Integration
+---
+
+{% for post in site.posts %}
+    <div class="wrapper">
+        <div class="post">
+            <a href="{{ post.url }}">
+                <h2>{{ post.title }}</h2>
+            </a>
+            {% if post.description %}
+                {{ post.description }}
+            {% else %}
+                {{ post.excerpt }}
+            {% endif %}
+            <a href="{{ post.url }}">Read more...</a>
+        </div>
+    </div>
+{% endfor %}

@@ -609,11 +609,29 @@ header .inner {
 
 .section-1 article .btns {
 	width:100%;
-	float:left
+	float:left;
 }
 
 .section-1 article .btns .btn-primary {
 	margin:10px 17px 0 0
+}
+
+.section-1 article .btns span {
+	color: #fff;
+	display: inline-block;
+	margin-top: 7px;
+	line-height: 50px;
+}
+
+.section-1 article .btns span a {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.section-1 article .btns span a:hover {
+	color: #136972;
+	border-bottom: 1px solid #136972;
+	text-decoration: none;
 }
 
 .section-1 .book-block {
