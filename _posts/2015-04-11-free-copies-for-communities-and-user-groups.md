@@ -9,4 +9,4 @@ The impact of the book has surpassed any expectations we had. You are awesome! Y
 
 ### Communities and User Groups
 Do you organise a PHP community, user group or meetup and you are interested in Domain-Driven Design? **We could give you a bunch of free copies for your folks!**
-Sounds good? Easy, just send us an email to <a href="mailto:hey@phpinphp.info">hey@phpinphp.info</a>
+Sounds good? Easy, just send us an email to <a href="mailto:hey@phpinphp.info">hey@dddinphp.info</a>
